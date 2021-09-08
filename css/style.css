@@ -25,3 +25,22 @@ li {
 img {
 	max-width: 100%;
 }
+
+/* CABECALHO */
+
+.cabecalho {
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+}
+
+.cabecalho .logo {
+	width: 56px;
+	height: 56px;
+	float: left;
+	background-image: url(../img/logo-mobile.png);
+	background-position: center center;
+	background-size: 56px;
+	background-repeat: no-repeat;
+	font-size: 0;
+}
