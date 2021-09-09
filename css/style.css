@@ -49,7 +49,6 @@ img {
 	width: 56px;
 	height: 56px;
 	float: right;
-	text-align: center;
 	color: #fff;
 	border-radius: 56px;
 	cursor: pointer;
@@ -66,12 +65,15 @@ img {
 }
 
 .cabecalho .menu .btn-close {
-	font-size: 2em;
-	color: #fff;
-	cursor: pointer;
+	width: 56px;
+	height: 56px;
 	float: right;
-	margin-right: 7%;
-	margin-top: 6%;
+	color: #fff;
+	border: solid 1px #da6709;
+	border-radius: 56px;
+	cursor: pointer;
+	margin: 3% 4%;
+	background-color: initial;
 }
 
 .cabecalho .menu ul {
@@ -82,7 +84,6 @@ img {
 
 .cabecalho .menu li {
 	padding: 1.5%;
-
 }
 
 .cabecalho .menu li a {

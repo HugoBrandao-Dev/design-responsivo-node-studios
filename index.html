@@ -28,7 +28,7 @@
 		<a href="index.html"><h1 class="logo">NodeProp - Especializada em Soluções Digitais</h1></a>
 		<button class="btn-menu"><i class="fas fa-bars fa-lg"></i></button>
 		<nav class="menu">
-			<a href="" class="btn-close"><i class="fas fa-times fa-lg"></i></a>
+			<button class="btn-close"><i class="fas fa-times fa-lg"></i></button>
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Clientes</a></li>
@@ -39,5 +39,19 @@
 			</ul>
 		</nav>
 	</header>
+
+	<!-- JQUERY -->
+	<script src="https://code.jquery.com/jquery-1.12.0.js" integrity="sha256-yFU3rK1y8NfUCd/B4tLapZAy9x0pZCqLZLmFL3AWb7s=" crossorigin="anonymous"></script>
+	<script>
+		// Mostra o menu quando o botão btn-menu é clicado
+		$(".btn-menu").click(function () {
+			$(".menu").show()
+		})
+
+		// Esconde o menu quando o botão btn-close é clicado
+		$(".btn-close").click(function() {
+			$(".menu").hide()
+		})
+	</script>
 </body>
 </html>
