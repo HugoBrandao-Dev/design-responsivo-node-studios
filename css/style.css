@@ -341,3 +341,42 @@ MEDIA QUERY = MEDIA TYPE + EXPRESSÃO
 		float: none;
 	}
 }
+
+/* LARGE DEVICES - WIDESCREENS */
+
+@media screen and (min-width: 1280px) {
+	.cabecalho .btn-menu, .cabecalho .menu .btn-close {
+		display: none;
+	}
+	.cabecalho .menu {
+		width: auto;
+		height: 56px;
+		line-height: 56px;
+		float: right;
+		background-color: #f5f5f5;
+		/* 
+			Quando o menu está em "formato de botão" e CLICAMOS PARA ABRIR
+			E, EM SEQUIDA, O FECHAMOS, acabamos criando um "bug" que, em
+			resoluções maiores, onde não precisamos do botão menu, os items
+			acabam não aparecerendo. Para contornar esse problema, colocamos
+			a propriedade !important, que forçará o menu a aparecer quando
+			a tela atingir outro brackpoint.
+		*/
+		display: block !important;
+		position: static;
+	}
+	.cabecalho .menu li {
+		padding: 0;
+		float: left;
+	}
+	.cabecalho .menu li a {
+		color: #130400;
+		font-size: 1em;
+		padding: 15px;
+	}
+	.cabecalho .menu li a:hover {
+		border: none;
+		color: #da6709;
+	}
+
+}
