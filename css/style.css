@@ -279,7 +279,7 @@ MEDIA QUERY = MEDIA TYPE + EXPRESSÃO
 		float: left;
 		margin-right: 2%;
 	}
-	.servicos .servico:nth-child(2) { /* Mexe com o segundo elemento com tem a classe servico */
+	.servicos .servico:nth-child(2) { /* Mexe com o segundo elemento que contém a classe servico */
 		margin-right: 0;
 	}
 	.newsletter h2 {
