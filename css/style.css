@@ -70,7 +70,7 @@ button {
 	margin-top: 2%;
 }
 
-/* CABECALHO */
+/* CABEÇALHO */
 
 .cabecalho .logo {
 	width: 56px;
@@ -250,7 +250,22 @@ A mudança só ocorrerá se a página estiver no modo de impressão
 }
 */
 
-/* MEDIA QUERY = MEDIA TYPE + EXPRESSÃO */
-@media screen and (min-width: 320px) { /* Isso é um MEDIA QUERY */
+/* 
+MEDIA QUERY = MEDIA TYPE + EXPRESSÃO
+@media screen and (min-width: 320px) { Isso é um MEDIA QUERY }
+*/
 
+/* ========== MOBILE FIRST ========== */
+
+/* SMALL DEVICES - SMARTHPHONES */
+
+@media screen and (min-width: 480px) {
+	.cabecalho .logo {
+		width: 214px;
+		background-image: url(../img/logo.png);
+		background-size: 214px;
+	}
+	.banner-buttons {
+		font-size: 2em;
+	}
 }
